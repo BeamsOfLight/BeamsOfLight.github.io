@@ -1,7 +1,7 @@
 const cacheName = 'PBAs-offline';
 const preCache = [
     './',
-    './simple.html',
+    './index.html',
     './mystyle.css',
     './myscript.js',
     './manifest.json',
