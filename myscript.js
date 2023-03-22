@@ -45,22 +45,3 @@ function remove() {
     return false;
 }
 
-/*function show() {
-    var BPAs = get_BPAs();
-
-    var html = '<ul>';
-    for (var i = 0; i < BPAs.length; i++) {
-        html += '<li>' + BPAs[i] + '<button class="remove" id="' + i + '">Delete</button> </li>';
-    };
-    html += '</ul>';
-
-    document.getElementById('PBAs').innerHTML = html;
-
-    var buttons = document.getElementsByClassName('remove');
-    for (var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', remove);
-    };
-}*/
-
-//document.getElementById('add').addEventListener('click', add);
-//show();
