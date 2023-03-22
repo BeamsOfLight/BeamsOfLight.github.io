@@ -1,19 +1,19 @@
-const cacheName = 'joke-offline';
+const cacheName = 'PBAs-offline';
 const preCache = [
     './',
-    './index.html',
-    './sw.js',   
-    './manifest.json'
+    './simple.html',
+    './mystyle.css',
+    './myscript.js',
+    './manifest.json',
+    './settings.json',
+    './sw.js',
+    
 ]
-
-
-
 self.addEventListener('install', e => {
     console.log('The SW is installed!');
     e.waitUntil(
         caches.open(cacheName).then(cache => cache.addAll(preCache))
     );
-
 });
 
 self.addEventListener('fetch', e => {
@@ -21,6 +21,3 @@ self.addEventListener('fetch', e => {
         caches.match(e.request).then(res => res || fetch(e.request))
     );
 });
-
-
-

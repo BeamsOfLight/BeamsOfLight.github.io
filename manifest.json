@@ -1,10 +1,11 @@
 {
-    "name": "Tech Jokes",
-    "short_name":"Tech Jokes",
-    "description":"Web Appplication Tecj Jokes",
+
+    "name": "Blood Pressure App",
+    "short_name":"BloodPressureApp",
+    "description":"Web Appplication BloodPressureApp",
     "start_url":"http://127.0.0.1:5500/index.html",
-    "theme_color": "#ff4500",
-    "background_color":"#ffdab9",
+    "theme_color": "#317EFB",
+    "background_color":"#317EFB",
     "display" : "minimal-ui",
     "icons": [
         {
